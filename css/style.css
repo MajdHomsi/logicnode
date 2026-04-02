@@ -66,6 +66,12 @@ nav {
   text-decoration: none;
 }
 
+.nav-logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
 .nav-logo-mark {
   width: 34px;
   height: 34px;
@@ -936,14 +942,14 @@ footer {
 }
 
 .footer-logo {
-  font-family: 'Syne', sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-  color: var(--white);
+  display: flex;
+  align-items: center;
 }
 
-.footer-logo span {
-  color: var(--blue-light);
+.footer-logo-img {
+  height: 28px;
+  width: auto;
+  display: block;
 }
 
 footer p {
